@@ -1,1 +1,1 @@
-print("XZZ XZZ XZZ")
+print("困死我了")
