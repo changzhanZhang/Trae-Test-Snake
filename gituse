@@ -1,0 +1,43 @@
+在Windows环境下，将修改后的文件提交到远程仓库的步骤如下：
+
+1. 检查修改状态
+打开终端，进入项目目录并查看已修改的文件：
+
+Bash
+
+
+
+运行
+cd c:\Users\谢志坚\Desktop\软件实训\warehouse\Trae-Test-Snake-2git status
+2. 暂存修改文件
+将修改后的文件添加到暂存区（替换<文件名>为实际修改的文件，如README.md或使用.暂存所有更改）：
+
+Bash
+
+
+
+运行
+git add <文件名># 或暂存所有更改git add .
+3. 提交到本地仓库
+提交暂存的更改并添加描述信息：
+
+Bash
+
+
+
+运行
+git commit -m "描述你的修改内容，例如：更新README.md中的游戏说明"
+4. 推送到远程仓库
+将本地提交推送到远程仓库的snake分支（假设远程仓库名称为origin）：
+
+Bash
+
+
+
+运行
+git push origin snake
+注意：
+
+如果是首次推送该分支，可能需要使用 git push -u origin snake 设置上游分支关联
+如果远程仓库有更新，建议先执行 git pull origin snake 拉取最新代码再推送
+确保你对远程仓库有写入权限
