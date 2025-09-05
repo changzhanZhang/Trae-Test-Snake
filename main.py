@@ -1,1 +1,0 @@
-print("XZZ XZZ XZZ")
